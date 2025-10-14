@@ -1,0 +1,45 @@
+.profile_img{
+    width: 15rem;
+    height: 15rem;
+    border-radius: 50%;
+    border: rgb(87, 53, 85) solid 5px;
+}
+
+.profile > .container{
+    margin: 8rem;
+    box-shadow: 5px 5px 15px #7658b34d;
+    border-radius: 10px;
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    height: 20rem;
+}
+
+.P_description{
+    margin-left: 2rem;
+}
+
+.rank{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.rank > img {
+    width: 2.5rem;
+    height: 2.5rem;
+}
+
+.games_div{
+    margin: 10rem 0rem 10rem 10rem;
+}
+
+.games > img {
+    width: 4rem;
+}
+.games{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 20px;
+    margin-top: 1rem;
+}
