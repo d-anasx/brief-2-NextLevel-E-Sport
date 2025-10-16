@@ -1,0 +1,61 @@
+.img{
+    grid-area: img ;
+    width: 50em;
+}
+img{
+    width: 100%;
+    margin: 1em 0 0 1em;
+    border-radius: 14px;
+
+}
+
+.title{
+    grid-area: title;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+h1{
+    margin: 0;
+    width: 380px;
+    border-bottom: 1px white solid;
+    text-decoration: underline;
+}
+
+h4{
+    margin: 0;
+}
+
+.text{
+    grid-area: text;
+    margin: 0;
+    padding: 0 0.5em 0.5em 0.5em ;
+}
+p{
+    margin: 0;
+}
+.desc{
+    grid-area: desc;
+    padding-right: 0.8em;
+}
+
+
+
+
+article{
+    display: grid;
+    grid-template-areas: 
+             "img title "
+             "img desc " 
+             "text text "  ;
+
+    margin-top: 6rem;
+}
+
+body{
+    background-image: url("../public/FreeStockFootage-ShootingStarsMeteorRainSkyBackground-EasyCGChannel1080ph264youtubeonline-video-cutter.com-ezgif.com-video-to-gif-converter.gif");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
