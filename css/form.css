@@ -1,8 +1,4 @@
- *{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-}
+
 body{
 	background-image: url("../public/lorenzo-herrera-p0j-mE6mGo4-unsplash_1.jpg");
 	background-size: cover;
@@ -10,31 +6,30 @@ body{
 
 
 
-form{
+.register_form{
     height: 800px;
-    width: 400px;
+    width: 700px;
     position: absolute;
     transform: translate(-50%,-50%);
     top: 50%;
     left: 50%;
     border-radius: 10px;
     backdrop-filter: blur(10px);
-    border: 2px solid rgba(255,255,255,0.1);
+    border: 2px solid #ffffff1a;
     box-shadow: 0 0 40px rgba(8,7,16,0.6);
 	background: rgba(10, 10, 15, 0.8);
     padding: 50px 35px;
-    backdrop-filter: blur(2px);
-
+    margin-top: 8rem;
 
 }
-form *{
+.register_form *{
     font-family: 'Poppins',sans-serif;
     color: #ffffff;
     letter-spacing: 0.5px;
     outline: none;
     border: none;
 }
-form h3{
+.register_form h3{
     font-size: 32px;
     font-weight: 500;
     line-height: 42px;
@@ -76,26 +71,7 @@ textarea{
 
 
 
-/* button{
-    margin-top: 50px;
-    width: 100%;
-    background-color: #ffffff;
-    color: #080710;
-    padding: 15px 0;
-    font-size: 18px;
-    font-weight: 600;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: all 0.8s ease;
-}
-
-button:hover{
-    background-color: linear-gradient(to right, white, gray, black );
-    color:aquamarine;
-} */
-
-
-button {
+.register_form button {
   position: relative;
   overflow: hidden;
   margin-top: 50px;
@@ -110,7 +86,7 @@ button {
   transition: color 0.8s ease;
 }
 
-button::before {
+.register_form button::before {
   content: "";
   position: absolute;
   inset: 0;
@@ -120,17 +96,17 @@ button::before {
   z-index: 0;
 }
 
-button:hover::before {
+.register_form button:hover::before {
   opacity: 1;
 }
 
-button span {
+.register_form button span {
   position: relative;
   z-index: 1;
   color: black;
 }
 
-button:hover {
+.register_form button:hover {
   color: aquamarine;
 }
 
@@ -144,11 +120,11 @@ button:hover {
     text-align: center;
     align-content: center;
 }
-a{
+.register_form a{
     text-decoration: none;
 }
 
-i{
+.register_form i{
     font-size: 30px;
     color: rgb(79, 96, 220);
 }

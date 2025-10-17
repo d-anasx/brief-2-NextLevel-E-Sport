@@ -1,59 +1,113 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Profile</title>
-    <link rel="stylesheet" href="css/styles.css">
-    <link rel="stylesheet" href="css/profile.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;800;900&family=Rajdhani:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-</head>
-<body>
-    <header class="header">
-    <div class="container">
-      <div class="header-content">
-        <div class="logo">
-          <span class="logo-text">NextLevel</span>
-          <span class="logo-accent">E-Sport</span>
-        </div>
-        <nav class="nav">
-          <a href="index.html#tournaments" class="nav-link">Tournois</a>
-          <a href="index.html#teams" class="nav-link">Équipes</a>
-          <a href="index.html#news" class="nav-link">Actualités</a>
-          <a href="index.html#contact" class="nav-link">Contact</a>
-          <a href="" class="nav-link">Profile</a>
-        </nav>
-      </div>
-    </div>
-  </header>
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/profile.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 
-  <section class="profile">
-    <div class="container">
-        <img class="profile_img" src="public/profile.jpg" alt="">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;800;900&family=Rajdhani:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <div class="header-content">
+          <div class="logo">
+            <span class="logo-text">NextLevel</span>
+            <span class="logo-accent">E-Sport</span>
+          </div>
+          <nav class="nav">
+            <a href="index.html#tournaments" class="nav-link">Tournois</a>
+            <a href="index.html#teams" class="nav-link">Équipes</a>
+            <a href="index.html#news" class="nav-link">Actualités</a>
+            <a href="index.html#contact" class="nav-link">Contact</a>
+            <a href="" class="nav-link">Profile</a>
+          </nav>
+        </div>
+      </div>
+    </header>
+
+    <section class="profile">
+      <div class="container">
+        <img class="profile_img" src="public/profile.jpg" alt="" />
         <div class="P_description">
-            <h1>BROLY</h1>
-            <h2>LEVEL : 100</h2>
-            <div class="rank">
-                <h2>RANK : SILVER</h2>
-                <img src="public/silver.webp" alt="">
-            </div>
+          <h1>BROLY</h1>
+          <h2>LEVEL : 100</h2>
+          <div class="rank">
+            <h2>RANK : SILVER</h2>
+            <img src="public/silver.webp" alt="" />
+          </div>
         </div>
         <div class="games_div">
-            <h4>Last played games :</h4>
-            <div class="games">
-                <img src="public/valo.png" alt="">
-                <img src="public/elden.jpg" alt="">
-                <img src="public/forza.webp" alt="">
-                <img src="public/gow.png" alt="">
-                <img src="public/fifa.jpg" alt="">
-            </div>
+          <h4>Last played games :</h4>
+          <div class="games">
+            <img src="public/valo.png" alt="" />
+            <img src="public/elden.jpg" alt="" />
+            <img src="public/forza.webp" alt="" />
+            <img src="public/gow.png" alt="" />
+            <img src="public/fifa.jpg" alt="" />
+          </div>
         </div>
-    </div>
-  </section>
+      </div>
 
+      <div class="fav_container">
+        <h1 style="text-align: center">Favorite teams</h1>
 
+        <div class="fav_teams">
+          <img class="sen" src="./public/sen.webp" alt="" />
+          <img
+            class="fnatic"
+            src="./public/c32c2cb848fd3338ff23a590ec5c0e052b080f27-1000x1000.avif"
+            alt=""
+          />
+          <img class="geng" src="./public/rjsqn0618.jpg" alt="" />
+          <img
+            class="mouz"
+            src="./public/0Ttu2XZldKoGgegNxbJFTalkYjoyy4Wy42zNzdJ1Xls.webp"
+            alt=""
+          />
+        </div>
 
-</body>
+      </div>
+
+      <div class="registered_container">
+        <h1 style="text-align: center">Registred tournament</h1>
+
+        <div class="registered_tour">
+          
+          <div class="tournament-card">
+            <div class="tournament-image">
+              <img
+                src="public/Esports-World-Cup.jpg"
+                alt="Valorant Championship"
+              />
+              <div class="tournament-badge live">EN DIRECT</div>
+            </div>
+            <div class="tournament-content">
+              <div class="tournament-meta">
+                <span class="tournament-game">Valorant</span>
+                <span class="tournament-date">15 Jan 2025</span>
+              </div>
+              <h3 class="tournament-title">Championship Series</h3>
+              <p class="tournament-description">
+                Tournoi international avec les meilleures équipes du monde
+              </p>
+              
+            
+              
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+  </body>
 </html>
